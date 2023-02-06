@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "IHkMtwH/bYxNZI+ZecQWb/e3w9QGmVH/SGfs/x30z74ZvdE3FD4pXN89MJ9cViNwMUDRlDqDvqgOtGH4hafSoA==",
+  "success": true,
+  "projectFilePath": "/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest.iOS/AppRatingTest.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/swamynadendla/.nuget/packages/plugin.storereview/5.0.1/plugin.storereview.5.0.1.nupkg.sha512",
+    "/Users/swamynadendla/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/swamynadendla/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/swamynadendla/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

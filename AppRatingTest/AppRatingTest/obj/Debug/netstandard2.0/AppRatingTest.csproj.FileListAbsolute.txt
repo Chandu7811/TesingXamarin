@@ -1,0 +1,14 @@
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/bin/Debug/netstandard2.0/AppRatingTest.deps.json
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/bin/Debug/netstandard2.0/AppRatingTest.dll
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/bin/Debug/netstandard2.0/ref/AppRatingTest.dll
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/bin/Debug/netstandard2.0/AppRatingTest.pdb
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/obj/Debug/netstandard2.0/AppRatingTest.csproj.AssemblyReference.cache
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/obj/Debug/netstandard2.0/AppRatingTest.AssemblyInfoInputs.cache
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/obj/Debug/netstandard2.0/AppRatingTest.AssemblyInfo.cs
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/obj/Debug/netstandard2.0/AppRatingTest.csproj.CoreCompileInputs.cache
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/obj/Debug/netstandard2.0/AppRatingTest.dll
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/obj/Debug/netstandard2.0/ref/AppRatingTest.dll
+/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/obj/Debug/netstandard2.0/AppRatingTest.pdb

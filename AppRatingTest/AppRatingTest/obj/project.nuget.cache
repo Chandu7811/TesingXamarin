@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tuDWRcziqRtEj5/ChAnMH0MtMj61kZZFUPwRH+ARWFTNqUQ/yo6KmdO01D5tru/eNoQWcZq/Ge/QBoCy5Ldd7w==",
+  "success": true,
+  "projectFilePath": "/Users/swamynadendla/Projects/AppRatingTest/AppRatingTest/AppRatingTest/AppRatingTest.csproj",
+  "expectedPackageFiles": [
+    "/Users/swamynadendla/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/swamynadendla/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/swamynadendla/.nuget/packages/plugin.storereview/5.0.1/plugin.storereview.5.0.1.nupkg.sha512",
+    "/Users/swamynadendla/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/swamynadendla/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/swamynadendla/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
