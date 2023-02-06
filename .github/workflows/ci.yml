@@ -1,0 +1,42 @@
+name: Build android app
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  # Build App
+  build:
+    runs-on: windows-latest
+    
+    env:
+      SERVICE_APP_KEY: ${{ secrets.SERVICE_APP_KEY }}
+      APPLICATION_NAME: AppRatingTest
+      PACKAGE_NAME: com.companyname.AppRatingTest
+      
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1.0.3
+        
+        # Initializes the CodeQL tools for scanning.
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@main
+       # Override language selection by uncommenting this and choosing your languages
+        with:
+          languages: csharp
+          config-file: ./.github/codeql/codeql-config.yml
+        
+
+      - name: Build Solution
+        run: msbuild ./${{ env.APPLICATION_NAME }}.sln /restore /p:Configuration=Release
+
+      - name: Create and Sign the APK
+        run: msbuild ${{ env.APPLICATION_NAME }}/${{ env.APPLICATION_NAME }}.Android\${{ env.APPLICATION_NAME }}.Android.csproj /t:SignAndroidPackage /p:Configuration=Release /p:OutputPath=bin\Release\
+
+      - name: List folder content
+        run: dir ${{ env.APPLICATION_NAME }}/${{ env.APPLICATION_NAME }}.Android\bin\Release
+        
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@main
